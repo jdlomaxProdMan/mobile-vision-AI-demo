@@ -1,2 +1,12 @@
 Utiizing Google Stitch (AI tool for design) initiated a design for a mobile app for capture => analyze => process => view to demonstrate vision AI capabilities on Android or iOS platforms.
+
 Initial prompt on Google Stitch: Create a design for a mobile app that illustrates or demos vision AI capabilities for automation.  The use case is 'capture images that might inform a robotic arm of: 1: individual packages in a pile of packages; 2. the priority of the the picking of the packages, with numbers, informing the robot of what is the most available package to pick from 0 to X; 3. what is the center point or the best 'plane' for each visible package to be picked up by a vacuum gripper by the robot arm.  The app should be able to look at a pile of packages, capture a still image and identify the segmentation of individual packages.  the user should be able to zoom in on the processed image to get a closer look at individual segmented packages and their grasp points and grasp priorities.  The user flow should be a 'one image' flow, with a 'refresh' button to start over.
+
+I've designed a specialized vision AI mobile app for industrial automation. 
+
+The three screens illustrate the full flow for robotic picking:
+1.  **Capture View**: This provides a real-time viewfinder where the user can capture the pile of packages for analysis.
+2.  **Processed View**: The core visualization, showing each segmented package with its pick priority (0 to X) and the optimal vacuum-gripper 'plane' marked.
+3.  **Segment Detail View**: A high-precision zoom-in for inspecting individual packages and their specific grasp metadata.
+
+The design uses a high-contrast industrial aesthetic with 'HUD' style elements to match the advanced technology being demonstrated.
